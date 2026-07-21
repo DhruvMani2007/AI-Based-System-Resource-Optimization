@@ -1,0 +1,28 @@
+# OptimizeMate — Python dependencies
+# Install all with: pip install -r requirements.txt
+
+# Core system monitoring
+psutil>=5.9.8
+
+# GPU monitoring (optional — only works with NVIDIA GPUs)
+# If you don't have an NVIDIA GPU, this installs fine but get_gpu() returns safely
+GPUtil==1.4.0
+
+# Data handling
+pandas==2.2.2
+numpy==1.26.4
+
+# ML pipeline (Phase 4)
+scikit-learn==1.4.2
+
+# Streamlit dashboard (Phase 2)
+streamlit==1.35.0
+
+# Charts (Phase 6)
+plotly==5.22.0
+
+# PDF export (Phase 6)
+fpdf2==2.7.9
+
+# Google Gemini API (Phase 5)
+google-genai==1.33.0
